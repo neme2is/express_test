@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:jessie
+FROM granjow/rpi-raspbian-nodejs
 WORKDIR /app
 COPY . /app
 RUN npm install
