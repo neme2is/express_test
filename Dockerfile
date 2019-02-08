@@ -1,4 +1,4 @@
-FROM arm64v8/node:8.15.0
+FROM resin/rpi-raspbian:jessie
 WORKDIR /app
 COPY . /app
 RUN npm install
